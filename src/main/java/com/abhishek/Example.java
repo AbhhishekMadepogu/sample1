@@ -15,6 +15,10 @@ public class Example
         Example main = new Example();
         int s = main.sumofarray(x);
         System.out.println(s);
+        for(int i=0;i<x.length;i++)
+        {
+            System.out.println("X[]" + x[i]);
+        }
 
     }
     public int sumofarray(int a[])
